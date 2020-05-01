@@ -1,0 +1,16 @@
+Package: ConquerMCMC
+Title: Divide and Conquer Algorithms for Markov Chain Monte Carlo
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jacob",
+           family = "Raymond", email="j4raymond@uwaterloo.ca",
+		 role = "cre")
+Description: A series of implementations of divide-and-conquer algorithms for Markov-Chain Monte Carlo. These functions provide scalable Metropolis-Hastings samplers to deal with large and disjointed data sets. Three methods, excluding the standard MCMC scheme, are available: the consensus MCMC, the m-posterior, and the scaled subprior. See function descriptions for proper attributions.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Imports: mniw, stats, doParallel, pracma, randomForest, foreach, MCMCpack
+Suggests: 
+    testthat, MASS, MCMCpack
